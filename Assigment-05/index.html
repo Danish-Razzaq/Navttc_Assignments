@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="side-by-side"></div>
+    <div class="container">
+        <h2 style="padding: 18px; font-size: 60px; padding-top: 42px; margin-left: 150px;">
+            <span style="font-size: 73px; color: rgb(5, 49, 170);">C</span>andidate 
+            <span style="font-size: 53px; color: rgb(226, 148, 4);">P</span>rofile
+        </h2>
+        <div style="margin-right: 20%; padding: 2%;">
+            <img src="/pik.png" alt="Candidate Image" style="width: 200px; height: 200px;">
+        </div>
+    </div>
+
+    <div class="main">
+        <div style="color: rgb(204, 6, 6); margin-left: 10px;">
+            <dl>
+                <dt>
+                    <h1>Instructions</h1>
+                </dt>
+                <dd>
+                    <div class="side-by-side">
+                        <ol>
+                            <h2>
+                                <li>Enter your full name as per your CNIC/Passport.</li>
+                                <li>Make sure to provide valid and accessible phone no. and email address for correspondence.</li>
+                            </h2>
+                        </ol>
+                    </div>
+                </dd>
+            </dl>
+        </div>
+        <hr>
+
+        <div class="std">
+            <h2>
+                <b style="color: #8930bd;">  Basic Information</b>
+            </h2> <dfn>
+                 <p style="margin-top: -18px; margin-left: 50px;" >  Please provide the detail</p>
+            </dfn>
+            <form>
+                <table>
+                    <tr>
+                        <th>Full Name *</th>
+                        <td><input type="text" name="full_name"></td>
+                        <th>Father Name *</th>
+                        <td><input type="text" name="father_name"></td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td>
+                            <select name="gender">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                        <th>Date of Birth *</th>
+                        <td><input type="date" name="date_of_birth"></td>
+                    </tr>
+                    <tr>
+                        <th>CNIC/POR No. *</th>
+                        <td><input type="text" name="cnic_por"></td>
+                        <th>Mobile No</th>
+                        <td><input type="tel" name="mobile_no"></td>
+                    </tr>
+                    <tr>
+                        <th>Email *</th>
+                        <td><input type="email" name="email"></td>
+                        <th>District *</th>
+                        <td><input type="text" name="district"></td>
+                    </tr>
+                    <tr>
+                        <th>Domicile *</th>
+                        <td><input type="text" name="domicile"></td>
+                        <th>Postal Address *</th>
+                        <td><textarea name="postal_address" rows="4"></textarea></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <hr>
+        <button class="save-button" style="margin-left: 10%;">Save Record</button>
+        <table class="checkbox">
+            <tr>
+                <th style="font-size: x-large; padding-bottom: 1px;">Are You</th>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="eligible" name="eligible">
+                                <label for="eligible" class="checkbox-label">Eligible for Zakkat</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="hafiz" name="hafiz">
+                                <label for="hafiz" class="checkbox-label">Hafiz-e-Quran</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="sportsman" name="sportsman">
+                                <label for="sportsman" class="checkbox-label">Certified Sportsman</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="orphan" name="orphan">
+                                <label for="orphan" class="checkbox-label">Orphan</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="widow" name="widow">
+                                <label for="widow" class="checkbox-label">Widow</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="divorced" name="divorced">
+                                <label for="divorced" class="checkbox-label">Divorced</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="disabled" name="disabled">
+                                <label for="disabled" class="checkbox-label">Disabled</label>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <br><br>
+        <hr>
+        <hr>
+        <table class="info-tbl" style="margin-top: 30px; margin-left: 5%;">
+            <tr class="info">
+                <th>EDUCATION LEVEL</th>
+                <th>INSTITUTE</th>
+                <th>PERCENTAGE</th>
+                <th>HIGHEST QUALIFICATION</th>
+            </tr>
+            <tr class="data">
+                <td><input type="text" name="education_level"></td>
+                <td><input type="text" name="institute"></td>
+                <td><input type="text" name="percentage"></td>
+                <td><input type="text" name="highest_qualification"></td>
+            </tr>
+        </table>
+        <h2 style="color: #3f12e4; margin-left: 4%;"><b>Applied Trades in Prime Minister's Youth Skills Development Program (Batch IV)</b></h2>
+        <table class="info-tbl" style="margin-left: 6% ; ">
+            <tr class="info" style="background-color: #f1f5f9; ">
+                <th>PREFERENCE</th>
+                <th>INSTITUTE</th>
+                <th style="width: 460px;">TRADE</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="preference"></td>
+                <td><input type="text" name="institute"></td>
+                <td><input type="text" name="trade"></td>
+            </tr>
+        </table>
+        <div class="btn">
+            <button class="save-button">Save Record</button>
+            <button submit">Submit</button>
+            <div style="padding-bottom: 10%;"></div>
+        </div>
+    </div>
+</body>
+<footer style="background-color: #dae7f1; text-align: right; padding: 2px; width: 100%; margin-top: 3%;">
+    © By NAVTTC 2023
+    For details and Technical Assistance please call us on Navttc Toll Free number 0800-88866 From 9:00AM to 5:00PM (Monday - Friday)
+</footer>
+</html>

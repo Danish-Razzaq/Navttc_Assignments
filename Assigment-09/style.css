@@ -1,0 +1,49 @@
+.container {
+  border: 1px solid black;
+  width: 500px; /* Change the width to 500px */
+  height: 500px; /* Change the height to 500px */
+  margin: 80px auto;
+  position: relative;
+  background-color: black;
+}
+
+.div1,
+.div-2,
+.div-3,
+.div-4 {
+  width: 25%;
+  height: 25%; /* Set the height to 25% to make it a square box */
+  border: 1px solid black;
+  position: absolute;
+  background-color: aqua;
+}
+
+.div1 {
+  top: 0;
+  left: 0;
+}
+
+.div-2 {
+  top: 0;
+  right: 0;
+}
+
+.div-3 {
+  bottom: 0;
+  left: 0;
+}
+
+.div-4 {
+  bottom: 0;
+  right: 0;
+}
+
+.div-5 {
+  width: 49.5%;
+  height: 50%; /* Set the height to 50% to make it a square box */
+  border: 1px solid black;
+  position: absolute;
+  top: 25%;
+  left: 25.1%;
+  background-color: aqua;
+}

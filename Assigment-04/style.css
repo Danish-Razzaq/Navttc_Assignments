@@ -1,0 +1,36 @@
+.main{
+    border: #000; margin: 10px; border: 2px;;
+}
+
+.container {
+    display: flex;
+  }
+  
+  .container div {
+    flex: 1;
+  }
+  .h1{
+    padding-top: 100px; text-align: center; font-size: 13ch ; 
+  }
+  .img{
+    padding-top: 60px; border: #000; border: 2px;
+  }
+  .tbl{
+    border: double; text-align: center;  border-collapse: collapse;  margin: 100px; margin-left: 14ch; 
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    
+  }
+  
+  th{
+    background: #000;
+    color: white;
+    width: 140px;
+  }
+  tr:nth-child(odd) {
+    background-color: #837c7c;
+  }
