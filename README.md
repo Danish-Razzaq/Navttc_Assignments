@@ -1,7 +1,7 @@
 # Navttc_Assignments
  
 
- Instructors can review students' assignments by examining the code changes and providing feedback directly within the Git repository. This facilitates a streamlined feedback process, enhancing learning and improvement.
+ Instructors @Tahir Shafi can review students' assignments by examining the code changes and providing feedback directly within the Git repository. This facilitates a streamlined feedback process, enhancing learning and improvement.
  
   The repository may include a Readme file that provides an overview of the repository, instructions for running the code, and any additional information relevant to the assignments. This documentation ensures clarity and helps users understand the purpose and usage of the repository.
   
