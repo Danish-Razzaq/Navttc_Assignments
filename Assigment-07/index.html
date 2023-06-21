@@ -5,26 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      button {
+        background-color: #07a10a;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+
+      button:hover {
+        opacity: 0.8;
+      }
+
+      .btn {
+        margin-left: 5%;
+        margin-top: 5%;
+      }
+    </style>
   </head>
+
   <body>
-    <div
-      style="
-        border: 8px solid rgb(105, 79, 13);
-        overflow: hidden;
-        padding: 8px;
-        width: 250px;
-        height: 200px;
-        margin-left: 30%;
-      "
-    >
-      <h1 style="background-color: brown">HELLO!</h1>
-      <section>
-        <h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sed
-          fugit quis eius minima quaerat corporis reiciendis omnis laborum natus
-          officiis vel odio iusto ratione, iure nemo similique modi sit.
-        </h1>
-      </section>
+    <form style="display: flex; gap: 20px; margin: 10%">
+      <!-- Submit button with an image -->
+      <input type="image" src="/image5.jpg" alt="Submit" width="40%" />
+
+      <!-- Reset button with an image -->
+      <input type="image" src="/image6.jpg" alt="Reset" width="40%" />
+    </form>
+    <div class="btn" style="margin-left: 35%; padding-top: -30px">
+      <button class="save-button">SUBMIT</button>
+      <button class="reset-button">RESET</button>
+      <div style="padding-bottom: 10%"></div>
     </div>
   </body>
 </html>

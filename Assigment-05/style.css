@@ -1,112 +1,43 @@
-body{
-    background: #f1f5f9;
-}
-.main{
-    padding: 16px ;
-    margin-left: 12%;
-    margin-right: 20%;
-    background-color: white;
+ nav {
+  padding: 0px;
+  margin: -8px;
+  
 }
 
-
-.std{
-margin-left: 12%;
-}   
-
-.checkbox{
-margin-left: 20%;
-margin-top: 5px;
+nav {
+    /* Set the background color */
+    background: #000;
+    color: #000;
+    position: fixed;
+    width: 100%;
+         
 }
-.checkbox-container {
-display: flex;
-align-items: center;
-margin-bottom: 10px;
+  
+  nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block; 
+  }
+  
+  nav ul li a {
+    display: block; 
+    color: #fff; 
+    text-decoration: none;
+    padding: 10px 20px; 
+  }
+  
+  nav ul li a:hover {
+    background-color: #555; 
+  }
+  
+  body {
+    background-image: url('/img/image5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
-
-.checkbox-label {
-margin-left: 5px;
-}
-
-
-th {
-text-align: left;
-}
-
-input[type=text], input[type=email], input[type=number] {
-width: 100%;
-padding: 6px 10px;
-margin: 4px 0;
-box-sizing: border-box;
-}
-
-select {
-width: 100%;
-padding: 6px 10px;
-margin: 4px 0;
-box-sizing: border-box;
-}
-
-button {
-background-color: #4CAF50;
-color: white;
-padding: 10px 20px;
-border: none;
-cursor: pointer;
-margin-top: 10px;
-}
-
-button:hover {
-opacity: 0.8;
-}
-.checkbox{
-margin-top: 28px;
-}
-
-.save-button {
-background-color: #9333ea;
-color: white;
-padding: 10px 20px;
-border: none;
-cursor: pointer;
-}
-
-.save-button:hover {
-opacity: 0.8;
-}
-.info{
-background: #f1f5f9;
-border-collapse: collapse;
-text-align: left;
-}
-.info th{
-text-align: center;
-font-size: larger;
-padding: 10px;
-}
-.data td{
-padding: 5px;
-margin: 10px;
-font-size: x-large;
-}
-.info-tbl{
-border-collapse: collapse;
-}
-.side-by-side {
-display: flex;
-}
-
-.side-by-side p {
-margin-right: 20px;
-}
-.btn{
-margin-left: 5%;
-margin-top: 5%;
-}
-.container {
-display: flex;
-align-items: center;
-}
-
-.container h2 {
-flex: 1;
-}
+  

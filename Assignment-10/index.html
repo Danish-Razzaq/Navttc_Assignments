@@ -1,0 +1,33 @@
+<!-- When we bring the mouse on the image, the image
+changes its position. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function moveImag() {
+        let image = document.getElementById("img");
+        image.style.transform = "translateX(100px) translateY(20px)";
+      }
+      function restImag() {
+        let image = document.getElementById("img");
+        image.style.transform = "none";
+      }
+    </script>
+  </head>
+  <body style="margin: 30px">
+    <h1>OnMouse-over Event</h1>
+    <img
+      id="img"
+      onmouseenter="moveImag()"
+      onmouseleave="restImag()"
+      src="/pik.png"
+      alt="image"
+      width="200"
+      height="200"
+    />
+  </body>
+</html>
