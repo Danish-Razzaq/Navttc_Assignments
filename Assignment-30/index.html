@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body
+    style="
+      background: linear-gradient(to right, rgb(73, 62, 62), rgb(223, 79, 103));
+    "
+  >
+    <button
+      id="btn"
+      style="
+        background-color: blue;
+        background: linear-gradient(
+          to left,
+          rgb(175, 177, 46),
+          rgb(49, 82, 114)
+        );
+        padding: 15px;
+        color: white;
+        font-weight: 600;
+        margin: 30px;
+      "
+    >
+      Click Me
+    </button>
+    <p style="padding: 30px; color: white">
+      Danish Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero
+      necessitatibus officia libero, vel nostrum, sapiente consequuntur tempore
+      corrupti repellendus culpa accusamus quis fugit! Perspiciatis cum nulla,
+      sapiente consequuntur corporis aspernatur.
+    </p>
+
+    <script>
+      function updateContent() {
+        return "Ali ipsum dolor sit amet consectetur, adipisicing elit. Vero necessitatibus officia libero, vel nostrum, sapiente consequuntur tempore corrupti repellendus culpa accusamus quis fugit! Perspiciatis cum nulla, sapiente consequuntur corporis aspernatur ipsum dolor sit amet consectetur, adipisicing elit. Vero necessitatibus officia libero, vel nostrum, sapiente consequuntur tempore corrupti repellendus culpa accusamus quis fugit! Perspiciatis cum nulla, sapiente consequuntur corporis aspernaturAli ipsum dolor sit amet consectetur, adipisicing elit. Vero necessitatibus officia libero, vel nostrum, sapiente consequuntur tempore corrupti repellendus culpa accusamus quis fugit! Perspiciatis cum nulla, sapiente consequuntur corporis aspernatur ipsum dolor sit amet consectetur, adipisicing elit. Vero necessitatibus officia libero, vel nostrum, sapiente consequuntur tempore corrupti repellendus culpa accusamus quis fugit! Perspiciatis cum nulla, sapiente consequuntur corporis aspernaturAli ipsum dolor sit amet consectetur, adipisicing elit. Vero necessitatibus officia libero, vel nostrum, sapiente consequuntur tempore corrupti repellendus culpa accusamus quis fugit! Perspiciatis cum nulla, sapiente consequuntur corporis aspernatur ipsum dolor sit amet consectetur, adipisicing elit. Vero necessitatibus officia libero, vel nostrum, sapiente consequuntur tempore corrupti repellendus culpa accusamus quis fugit! Perspiciatis cum nulla, sapiente consequuntur corporis aspernatur.";
+      }
+      $(document).ready(function () {
+        $("#btn").click(function () {
+          $("p").text(updateContent());
+        });
+      });
+    </script>
+  </body>
+</html>
